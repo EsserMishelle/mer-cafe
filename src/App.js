@@ -1,33 +1,28 @@
-import './App.css';
-import { useState } from 'react';
-import AuthPage from './pages/Auth';
-import NewOrderPage from './pages/NewOrder';
-import OrderHistoryPage from './pages/OrderHistory';
-import NavBar from './components/Nav';
-import { Routes, Route } from 'react-router-dom';
+/* eslint-disable no-unused-vars */
+import "./App.css";
+import { useState } from "react";
+import AuthPage from "./pages/Auth";
+import NewOrderPage from "./pages/NewOrder";
+import OrderHistoryPage from "./pages/OrderHistory";
+import NavBar from "./components/Nav";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const [user, setUser] = useState({})
+  const [user, setUser] = useState(null);
 
   return (
     <main className="App">
-      {user ?
+      {user ? (
         <>
           <NavBar />
           <Routes>
-            <Route
-              path="/orders/new"
-              element={<NewOrderPage />}
-            />
-            <Route
-              path="/orders"
-              element={<OrderHistoryPage />}
-            />
+            <Route path="/orders/new" element={<NewOrderPage />} />
+            <Route path="/orders" element={<OrderHistoryPage />} />
           </Routes>
         </>
-        :
+      ) : (
         <AuthPage />
-      }
+      )}
     </main>
   );
 }

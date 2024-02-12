@@ -1,0 +1,134 @@
+fille@DESKTOP-4JS80HJ MINGW64 ~
+$ cd d:
+
+fille@DESKTOP-4JS80HJ MINGW64 /d
+$ cd react/ps
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps
+$ ls
+ 2023-NCR-10/                           exp_mongoose_relationship/
+ HackerRank.txt                         exp_mongoose_tweet/
+'React - Shortcut.lnk'*                 exp_one_to_one/
+ array_object/                          exp_pass_it_around_hw/
+ blog/                                  exp_plants1/
+ cd/                                    exp_plants_home/
+ commands.txt                           exp_pokemon/
+ cryto/                                 exp_pokemon_mongd/
+ euler_fun/                             fruit_postman/
+ exp_build_ten_routes/                  group-project/
+ exp_captains_log/                      lifting_state/
+ exp_captains_log-works/                luhn/
+ exp_captains_log_old/                  mern-infrastructure/
+ exp_captains_social_media/            'mongoose flight.docx'
+ exp_cars/                              myGit/
+ exp_fibonacci/                         node_modules/
+ exp_flights/                           node_practice/
+'exp_flights - Copy'/                   objectrel/
+ exp_fruits_mongd_final/                package-lock.json
+ exp_fruits_mongd_final_Copy/           package.json
+ exp_fruits_mongd_not_MVC/              react-review/
+ exp_fruits_vegetables/                 react-star-wars/
+ exp_fruits_vegetables_mongd/           react-tac-toe/
+ exp_fruits_vegetables_mongd_not_MVC/   redux/
+ exp_lesson/                           'run commands for server.js.jpg'
+ exp_lesson_home/                       screenshot-thumbnail.jpg
+ exp_magic8balls_hw/                    server.js
+ exp_mongo_tutorial/                    shopping_cart/
+ exp_mongoose-flights/                  stocks_1_17/
+ exp_mongoose-flights-Copy/             student_hw/
+ exp_mongoose-movies/                   test-movies/
+ exp_mongoose-try/                      weather_app/
+ exp_mongoose_movie/
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps
+$ cd 2023-NCR-10/
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10
+$ ls
+mern-infrastructure/
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10
+$ cd mern-infrastructure/
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git remote -v
+origin  https://github.com/devkenney/mern-infrastructure.git (fetch)
+origin  https://github.com/devkenney/mern-infrastructure.git (push)
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git remote add origin origin https://github.com/EsserMishelle/mer-cafe.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch> master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git remote set-url origin https://github.com/EsserMishelle/mer-cafe.git
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git remote -v
+origin  https://github.com/EsserMishelle/mer-cafe.git (fetch)
+origin  https://github.com/EsserMishelle/mer-cafe.git (push)
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        config.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git status main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ pwd
+/d/react/ps/2023-NCR-10/mern-infrastructure
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        config.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git add .
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git commit -m "created auth page and others"
+[main b0923c0] created auth page and others
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 config.js
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
+$ git push -u origin main
+Enumerating objects: 39, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (33/33), done.
+Writing objects: 100% (39/39), 329.65 KiB | 65.93 MiB/s, done.
+Total 39 (delta 5), reused 35 (delta 4), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/EsserMishelle/mer-cafe.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+fille@DESKTOP-4JS80HJ MINGW64 /d/react/ps/2023-NCR-10/mern-infrastructure (main)
